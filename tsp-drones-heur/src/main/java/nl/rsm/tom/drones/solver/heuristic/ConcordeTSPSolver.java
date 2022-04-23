@@ -70,7 +70,7 @@ public class ConcordeTSPSolver<E> implements Solver<E>, LowerBoundSolver<E>
 	 */
 	public ConcordeTSPSolver(String pathToConcorde, String tempfileName)
 	{
-		_pathToConcorde = pathToConcorde;
+		_pathToConcorde = "/Users/chkwon/.julia/dev/Concorde/deps/concorde/TSP/concorde";
 		_tempfileName = tempfileName;
 	}
 	
